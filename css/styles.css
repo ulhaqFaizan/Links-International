@@ -1,0 +1,460 @@
+/* @font-face {
+  font-family: "RobotoCondensed";
+  src: url('../fonts/Roboto_Condensed/RobotoCondensed-Regular.TTF');
+} */
+body {
+  color: #ffb100 !important;
+  font-family: "silent_echo_demoregular" !important;
+  font-size: 1.19rem !important;
+}
+
+h1 {
+  /* font-family: 'aeroregular'; */
+}
+
+h2{
+  font-size: calc(2.325rem + .9vw) !important;
+}
+
+p {
+  font-family: 'roboto_condensedregular' , sans-serif !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+a {
+  font-family: 'aeroregular';
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+hr {
+  margin: 0 !important;
+}
+#title {
+
+}
+
+/********************************navbar*************************************/
+.navigation {
+  padding: 20px 90px;
+  background-color: #121212;
+  font-family: "aeroregular";
+}
+
+.navbar-toggler {
+  color: #ffb100 !important;
+  background-color: #ffb100 !important;
+}
+
+.nav-globe {
+  width: calc(7.7rem + 3.8vw);
+  position: absolute;
+  top: -20px;
+  z-index: 0;
+}
+
+.navbar-brand {
+  line-height: 25px;
+  z-index: 1;
+  /* background-image: url('../images/globe.png'); */
+  font-size: calc(0.88rem + 0.43vw) !important; /* 1.25rem */
+}
+
+.navbar-collapse {
+  z-index: 1;
+}
+
+.links {
+  color: #ffb100;
+  font-size: calc(2.43rem + 1.2vw); /* 3.45rem */
+}
+/********************************************Dropdown menu navbar**************************/
+
+.dropdown-menu li {
+position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+display: none;
+position: absolute;
+left: 100%;
+top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
+/*************************top**************************/
+.call-btn {
+  position: absolute;
+  right: 10%;
+  top: -1.5%;
+}
+
+.top {
+  /* background-color: #121212; */
+}
+
+.tagline {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  color: red;
+}
+
+.background {
+  width: 600px;
+  border-radius: 10px;
+}
+/*******************************Carousel************************/
+.carousel-item {
+  height: 500px;
+  background-image: linear-gradient( #121212 -50%, #ffb100);
+}
+
+.iphone-sales {
+  position: absolute;
+  bottom: 0;
+  width: 500px !important;
+}
+
+.samsung-sales {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+}
+
+.carousel-caption {
+  color: #000;
+}
+
+.soft-logo {
+  position: relative;
+  bottom: 30%;
+  padding: 50px;
+}
+
+.android-soft {
+  width: 500px;
+}
+
+.carousel-caption {
+  bottom: 21.25rem !important;
+}
+
+/* .repair img {
+  width: 300px !important;
+  position: relative;
+  left: 900px;
+  top: 10px;
+  margin: 0;
+  border-radius: 10px;
+  rotate: 0deg;
+  filter: grayscale(0.4);
+}
+/*****************************Slider*****************************/
+#fix-slider {
+  padding: 50px;
+}
+
+.slider-heading {
+  text-align: center;
+  margin: 20px;
+}
+.slider {
+  padding: 50px;
+}
+.slider-img {
+  height: calc(150px + 7.35vw); /*250px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+/****************************brand-ticker************************/
+
+#webTicker img {
+  max-width: 7rem;
+  max-height: 5.8rem;
+  margin-right: 50px;
+}
+
+/**************************features***************************/
+#features {
+  padding: 50px;
+  background-image: url('../images/features-back1.png');
+}
+
+.features-text {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.features-text h1{
+  font-size: calc(1.2rem + 2.24vw); /* 3.5rem */
+}
+
+.features-img {
+  width: 70%;
+}
+
+
+.btn-mustard {
+  color: #000 !important;
+  background-color: #ffb100 !important;
+  border-color: #ffb100 !important;
+}
+.btn-mustard:hover {
+  color: #ffb100 !important;
+  background-color: #000 !important;
+  border-color: #ffc720 !important;
+}
+
+.btn-mustard:active {
+  color: #000;
+  background-color: #ffcd39;
+  border-color: #ffc720;
+  shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.btn-mustard:focus {
+  shadow: rgb(217,164,6);
+}
+/*****************************Reveiws*********************************/
+.reviews-img {
+  width: 40%;
+}
+
+.reviews {
+  padding: 50px;
+}
+/*************************Contact********************************/
+#contact {
+  background-color: #121212;
+  padding: 50px;
+}
+
+.contact {
+background-color: #ffb100;
+color: #121212;
+border-radius: 10px;
+padding: 20px;
+width: 390px;
+margin-left: auto;
+margin-right: auto;
+}
+.contact-btn a:hover {
+  font-size: 1.4rem;
+}
+
+.map {
+  border-radius: 10px;
+  width: 390px;
+  height: 497px;
+}
+footer{
+  text-align: center;
+  background-color: #121212;
+  height: 30px;
+}
+
+/********************************************About us page***************************/
+#about{
+  padding: 50px;
+}
+
+#about p {
+  font-size: 1.3rem;
+}
+
+/*******************************************Phone*****************************/
+#product{
+  padding: 100px;
+}
+
+.product-img {
+  height: 300px;
+}
+
+.product-name {
+  text-align: center;
+  padding: 10px;
+}
+
+.product-box {
+  text-align: center;
+  padding: 20px;
+}
+
+/******************************* Repair *************************************/
+#repair {
+  padding: 50px;
+}
+
+.model-img {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.issues {
+  border:  solid;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.issues h2 {
+  font-size: 2.58rem !important;
+}
+
+.issues .btn {
+  font-size: 1.2rem;
+}
+
+.call-now {
+  width: 100px;
+}
+
+.ipad-row {
+  display: none !important;
+}
+
+/*********************************phone-repair***********************/
+#repairing-head {
+  padding: 50px;
+}
+
+.lab img {
+  width: 80%;
+  border-radius: 5px;
+}
+
+#repairing-issues {
+  padding: 50px;
+}
+
+#repairing-issues p, #repairing-head p {
+  font-size: 1.6rem;
+}
+/***********************************Software page********************/
+#software {
+  padding: 50px;
+}
+/**********************************Sales Page************************/
+#sales {
+  padding: 50px;
+}
+/********************/
+.icon {
+  width: 30px;
+  margin-right: 10px;
+}
+.center {
+  text-align: center;
+}
+.justify {
+  text-align: justify;
+}
+.black {
+  background-color: #121212;
+}
+
+.row {
+  margin: 0 !important;
+}
+.red {
+  color: #FE1523;
+}
+.green {
+  color: #006B43;
+}
+.blue {
+  color: #0014ff;
+}
+
+@media screen and (max-width: 480px) {
+  .navigation {
+    padding: 20px 10px;
+  }
+
+  .carousel-caption span{
+    display: none;
+  }
+
+  .iphone-sales {
+    width: 300px !important;
+  }
+
+  .samsung-sales {
+    width: 300px;
+    rotate: -90deg;
+    right: -65px;
+    bottom: 90px;
+  }
+
+  .repair img {
+    height: 500px !important;
+    width: auto !important;
+  }
+
+  .soft-logo {
+    display: none;
+  }
+
+  .android-soft {
+    width: 100%;
+  }
+
+  .carousel-caption {
+    bottom: 17.25rem !important;
+  }
+
+  .call-btn {
+    right: 25%;
+    top: -1.5%;
+  }
+
+  .features-img {
+    padding-top: 58px;
+  }
+
+  .contact {
+    width: 68vw;
+  }
+
+  .map {
+    width: 68vw;
+  }
+
+  #contact {
+    padding: 40px 0;
+  }
+
+  /*****************about page********************/
+  #about{
+    padding: 40px;
+  }
+  /******************phone page***********************/
+  #product {
+    padding: 20px;
+  }
+  /******************repair page*****************/
+  .ipad-col {
+    display: block;
+  }
+
+  .ipad-row {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+  .ipad-col {
+    display: none;
+  }
+
+  .ipad-row {
+    display: flex !important;
+  }
+}
